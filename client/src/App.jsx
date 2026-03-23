@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 import "./App.css";
 
-const socket = io("https://your-backend-url.onrender.com");
+const socket = io("https://skribbl-backend-k31y.onrender.com");
 
 function App() {
   const [name, setName] = useState("");
